@@ -1,0 +1,26 @@
+#include<iostream>
+
+int main() {
+int a;
+int b;
+bool c;
+a=b+c;
+b=2+2;
+b=2;
+c=true;
+if (a>b) {
+a=c*c;
+} else {
+b=c*c;
+}
+for (c=0; c<5; c=c+1;) {
+a=b*b;
+}
+while (a<100) {
+a=a*10;
+}
+do {
+b=a*a;
+} while (a>100);
+return 0;
+}

@@ -1,0 +1,29 @@
+VAR
+    a : INT;
+    b : INT;
+    c : BOOL;
+END_VAR
+
+a := b + c;
+b := 2 + 2;
+b := 2;
+c := TRUE;
+
+IF a > b THEN
+    a := c * c;
+ELSE
+    b := c * c;
+END_IF
+
+FOR c := 0 TO 5 BY 1 DO
+    a := b * b;
+END_FOR
+
+WHILE a < 100 DO
+	a := a * 10;
+END_WHILE
+
+REPEAT
+    b := a * a;
+UNTIL a > 100
+END_REPEAT
